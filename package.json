@@ -1,6 +1,6 @@
 {
   "name": "@israr2800/pdf-player",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "scripts": {
     "start": "ng serve",
     "start-lib": "watch 'npm run build-lib' projects",
@@ -20,7 +20,7 @@
     "schematics:build": "./node_modules/.bin/tsc -p tsconfig.schematics.json",
     "postschematics:build": "./node_modules/.bin/copyfiles schematics/*/schema.json schematics/*/files/** schematics/collection.json ./dist/sunbird-pdf-player/"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "9.1.12",
     "@angular/common": "9.1.12",
@@ -32,6 +32,7 @@
     "@angular/platform-browser-dynamic": "9.1.12",
     "@angular/router": "9.1.12",
     "@dictrigyn/pdf-player": "^0.0.3",
+    "@israr2800/pdf-player": "file:dist/sunbird-pdf-player/israr2800-pdf-player-0.0.9.tgz",
     "@project-sunbird/client-services": "^3.4.8",
     "@project-sunbird/sb-styles": "0.0.7",
     "@project-sunbird/sunbird-pdf-player-v9": "^4.8.0",

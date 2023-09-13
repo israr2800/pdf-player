@@ -1,6 +1,6 @@
 {
   "name": "@israr2800/pdf-player",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "peerDependencies": {
     "@angular/common": ">= 9.1.12",
     "@angular/core": ">= 9.1.12",
